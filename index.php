@@ -130,7 +130,7 @@ $mysqli->close();
 		<table style="width:900px ;">
 			<tr>
 				<td style="vertical-align:top; width:50%;text-align: right;" >
-					<br/>
+				 	<br/>
 					<h2 >ليبيا سي في</h2>
 						<span class="textsfooter">
 						يـقـوم الموقــع بمـساعدة الباحثين عن العمل في انشاء سيرهم الذاتية الخاصه بهم، كذالك يساعد الموقع الموظيفين علي الأعلان علي الوظائف الشاغرة في الموقع .</span>
