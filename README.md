@@ -1,6 +1,7 @@
 # Jobs portal
 Job portal using pure php with mysql database
-
+## Docker
+`docker-compose up --build -d`
 
 ## Features
 - Resume builder
@@ -16,6 +17,7 @@ Job portal using pure php with mysql database
 * [MySQL](https://www.mysql.com/)
 * [JQuery](https://jquery.com)
 * [Bootstrap](https://getbootstrap.com)
+
 
 ## Screenshots
 # Main page
