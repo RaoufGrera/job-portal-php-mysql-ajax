@@ -3,22 +3,32 @@ Job portal using pure php with mysql database
 
 
 ## Screenshots
-# 1- Main page
+# - Main page
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/main_page.png)
 
-# 2- View job
+# - Searcg job seeker
+![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/search_engine.png)
+
+# - Search jobs
+![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/searchjob.png)
+
+# - Job requests
+![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/company_jobrequest.png)
+
+# - Company - job list
+![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/company_joblist.png)
+
+# - View job
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/view_job.png)
 
-# 3- View resume
+# - View resume
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/view_resume.png)
 
-# 4- Resume builder
+# - Resume builder
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/resume_builder.png)
 
-# 5- Search engine
-![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/search_engine.png)
-![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/login.png)
-![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/login_error.png)
+
+
 
 
 ## Features
