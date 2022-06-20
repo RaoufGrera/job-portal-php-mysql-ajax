@@ -1,3 +1,6 @@
+<img src="https://github.com/AmruthPillai/Reactive-Resume/blob/main/docs/static/logo.svg" alt="Reactive Resume" width="256px" height="256px" />
+
+
 # Jobs portal
 Job portal using pure php with mysql database
 
