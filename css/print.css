@@ -1,0 +1,19 @@
+/* #header, #nav, .noprint {display: none;} */
+ body { font-family: Times New Roman, Times, serif; font-size: 16px;
+ }
+
+.texts{
+color:#333;
+}
+#header, #footer {
+display: none;
+}
+.textb{
+font-size: 18px;
+color:#333;
+font-weight:normal;
+}
+.post{
+font-size: 18px;
+
+}

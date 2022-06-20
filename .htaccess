@@ -1,0 +1,59 @@
+# 1 ---- Prevent directory file listing in all of your folders ----
+IndexIgnore *
+
+Options +MultiViews
+
+
+FileETag MTime Size
+php_flag zlib.output_compression On
+
+<ifModule mod_headers.c>     
+Header set Connection keep-alive 
+</ifModule>
+
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|xml|gz)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+</IfModule>
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 30 days"
+</IfModule>
+## EXPIRES CACHING ## 
+
+
+################## GZip Files ###################
+<FilesMatch "\.js$">
+AddHandler application/x-httpd-php .js
+php_value default_mimetype "text/javascript"
+</FilesMatch>
+<FilesMatch "\.css$">
+AddHandler application/x-httpd-php .css
+php_value default_mimetype "text/css"
+</FilesMatch>
+<FilesMatch "\.(htm|html|shtml)$">
+AddHandler application/x-httpd-php .html
+php_value default_mimetype "text/html"
+</FilesMatch>
+# Use Mod_deflate to compress static files
+<ifmodule mod_deflate.c=""> 
+<filesmatch ".(js|css|ico|txt|htm|html|php)$"=""> 
+SetOutputFilter DEFLATE 
+</filesmatch> 
+</ifmodule>
+ 
+# Speed up caching
+FileETag MTime Size
+ 
+

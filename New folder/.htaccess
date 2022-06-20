@@ -1,0 +1,81 @@
+# 1 ---- Prevent directory file listing in all of your folders ----
+IndexIgnore *
+
+Options +MultiViews
+
+# Custom error page for error 403, 404 and 500
+ErrorDocument 404  http://localhost/www/ab_swe/AB/2/1.2/errors/notfound.php
+ErrorDocument 403 http://libyacvv.net84.net/errors/notfound.php
+ErrorDocument 500 http://libyacvv.net84.net/errors/notfound.php
+
+FileETag MTime Size
+php_flag zlib.output_compression On
+
+<ifModule mod_headers.c>     
+Header set Connection keep-alive 
+</ifModule>
+
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|xml|gz)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+</IfModule>
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 30 days"
+</IfModule>
+## EXPIRES CACHING ## 
+
+################ Expires Control ################
+ExpiresActive On
+ExpiresDefault A0
+<FilesMatch "\.(gif|jpg|jpeg|png|swf)$">
+# 2 weeks
+ExpiresDefault A1209600
+Header append Cache-Control "public"
+</FilesMatch>
+<FilesMatch "\.(xml|txt|html)$">
+# 2 hours
+ExpiresDefault A7200
+Header append Cache-Control "proxy-revalidate"
+</FilesMatch>
+<FilesMatch "\.(js|css)$">
+# 3 days
+ExpiresDefault A259200
+Header append Cache-Control "proxy-revalidate"
+</FilesMatch>
+
+################## GZip Files ###################
+<FilesMatch "\.js$">
+AddHandler application/x-httpd-php .js
+php_value default_mimetype "text/javascript"
+</FilesMatch>
+<FilesMatch "\.css$">
+AddHandler application/x-httpd-php .css
+php_value default_mimetype "text/css"
+</FilesMatch>
+<FilesMatch "\.(htm|html|shtml)$">
+AddHandler application/x-httpd-php .html
+php_value default_mimetype "text/html"
+</FilesMatch>
+# Use Mod_deflate to compress static files
+<ifmodule mod_deflate.c=""> 
+<filesmatch ".(js|css|ico|txt|htm|html|php)$"=""> 
+SetOutputFilter DEFLATE 
+</filesmatch> 
+</ifmodule>
+ 
+# Speed up caching
+FileETag MTime Size
+ 
+
