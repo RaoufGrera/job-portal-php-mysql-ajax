@@ -36,7 +36,6 @@ Job portal using pure php with mysql database
 - Search engine
     - seekers
     - jobs
-    - companies
 - Create company profile
 - Post jobs
 - And more
