@@ -3,6 +3,7 @@ Job portal using pure php with mysql database
 
 
 ## Screenshots
+![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/login.png?raw=true)
 
 ## Features
 - Resume builder
