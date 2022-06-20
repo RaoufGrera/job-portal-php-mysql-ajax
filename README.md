@@ -6,10 +6,10 @@ Job portal using pure php with mysql database
 # - Main page
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/main_page.png)
 
-# - Searcg job seeker
+# - Search - job seekers
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/search_engine.png)
 
-# - Search jobs
+# - Search - jobs
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/searchjob.png)
 
 # - Job requests
