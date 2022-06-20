@@ -1,9 +1,9 @@
-# job_portal
+# Jobs portal
 Job portal using pure php with mysql database
 
 
 ## Screenshots
-# - Main page
+# Main page
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/main_page.png)
 
 # Search - job seekers
