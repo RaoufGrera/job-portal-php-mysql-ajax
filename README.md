@@ -6,25 +6,25 @@ Job portal using pure php with mysql database
 # - Main page
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/main_page.png)
 
-# - Search - job seekers
+# Search - job seekers
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/search_engine.png)
 
-# - Search - jobs
+# Search - jobs
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/searchjob.png)
 
-# - Job requests
+# Job requests
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/company_jobrequest.png)
 
-# - Company - job list
+# Company - job list
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/company_joblist.png)
 
-# - View job
+# View job
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/view_job.png)
 
-# - View resume
+# View resume
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/view_resume.png)
 
-# - Resume builder
+# Resume builder
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/resume_builder.png)
 
 
