@@ -1,8 +1,8 @@
 <?php
-$jb_host ='127.0.0.1' ; 
+$jb_host ='mysql_db' ; //localhost if you don't using docker
 $jb_dbname = 'job_cv';
-$jb_username = 'root';
-$jb_password='102030'; 
+$jb_username = 'newuser';
+$jb_password='newuser'; 
 $mysqli = new mysqli($jb_host ,$jb_username,$jb_password,$jb_dbname);
 
 if ($mysqli->connect_errno) {
