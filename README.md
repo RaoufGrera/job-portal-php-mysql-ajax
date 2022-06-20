@@ -3,7 +3,9 @@ Job portal using pure php with mysql database
 
 
 ## Screenshots
+Main page
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/main_page.png)
+View job
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/view_job.png)
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/view_resume.png)
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/resume_builder.png)
