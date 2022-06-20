@@ -2,6 +2,21 @@
 Job portal using pure php with mysql database
 
 
+## Features
+- Resume builder
+- Search engine
+    - seekers
+    - jobs
+- Create company profile
+- Post jobs
+- And more
+
+## Built With
+* [PHP](https://www.php.net/)
+* [MySQL](https://www.mysql.com/)
+* [JQuery](https://jquery.com)
+* [Bootstrap](https://getbootstrap.com)
+
 ## Screenshots
 # Main page
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/main_page.png)
@@ -26,22 +41,3 @@ Job portal using pure php with mysql database
 
 # Resume builder
 ![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/resume_builder.png)
-
-
-
-
-
-## Features
-- Resume builder
-- Search engine
-    - seekers
-    - jobs
-- Create company profile
-- Post jobs
-- And more
-
-## Built With
-* [PHP](https://www.php.net/)
-* [MySQL](https://www.mysql.com/)
-* [JQuery](https://jquery.com)
-* [Bootstrap](https://getbootstrap.com)
