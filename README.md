@@ -18,6 +18,8 @@ Job portal using pure php with mysql database
 * [JQuery](https://jquery.com)
 * [Bootstrap](https://getbootstrap.com)
 
+## Site map
+![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/site_map.png)
 
 ## Screenshots
 # Main page
