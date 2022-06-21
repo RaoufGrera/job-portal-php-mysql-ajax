@@ -19,29 +19,29 @@ Job portal using pure php with mysql database
 * [Bootstrap](https://getbootstrap.com)
 
 ## Site map
-![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/site_map.png)
+![Site map](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/site_map.png)
 
 ## Screenshots
 # Main page
-![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/main_page.png)
+![Main page](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/main_page.png)
 
 # Search - job seekers
-![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/search_engine.png)
+![Search - job seekers](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/search_engine.png)
 
 # Search - jobs
-![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/searchjob.png)
+![Search - jobs](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/searchjob.png)
 
 # Job requests
-![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/company_jobrequest.png)
+![Job requests](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/company_jobrequest.png)
 
 # Company - job list
-![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/company_joblist.png)
+![Company - job list](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/company_joblist.png)
 
 # View job
-![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/view_job.png)
+![View job](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/view_job.png)
 
 # View resume
-![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/view_resume.png)
+![View resume](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/view_resume.png)
 
 # Resume builder
-![alt text](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/resume_builder.png)
+![Resume builder](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/resume_builder.png)
