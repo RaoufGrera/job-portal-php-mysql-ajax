@@ -21,6 +21,9 @@ Job portal using pure php with mysql database
 ## Site map
 ![Site map](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/site_map.png)
 
+## Database digram
+![Database digram](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/database_digram.png)
+
 ## Screenshots
 # Main page
 ![Main page](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/readme_img/main_page.png)
